@@ -57,6 +57,14 @@ ul.top li a.active {
 		float: none;
 	}
 }
+h1{
+	font-family:"MV Boli","Segoe Script","Segoe Print",cursive;
+	font-size:45px;
+	margin-top:10%;	
+}
+h3{
+  font-size:20px;
+}
 #menu {
   width:100%; 
   /*text-align:center;*/
