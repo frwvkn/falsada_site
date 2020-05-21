@@ -1,0 +1,76 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  margin: 0;
+}
+/*.index {
+  background-image: url("./images/background-image.png");
+}
+.programming {
+  background-image: url("./images/wallpaper.jpg");
+  color: aliceblue;
+}
+.music {
+  background-image: url("./images/DSC_000008.JPG");
+  color: aliceblue;
+}
+.hangglider {
+  background-image: url("./images/hangglider-min.jpg");
+}
+.eeic {
+  background-image: url("./images/wallpaper.jpg");
+  color: aliceblue;
+}*/
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: blue;
+}
+.top {
+  overflow: hidden;
+	padding:0px;
+	list-style-type: none;
+	margin:auto;
+}
+.top li {
+  float: left;
+  font-size: 16px;
+}
+ul.top li a{
+  display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+ul.top li a:hover {
+  background-color: gray;
+}
+ul.top li a.active {
+  background-color: red;
+}
+@media screen and (max-width: 480px) {
+	ul.top li.right, ul.top li {
+		float: none;
+	}
+}
+#menu {
+  width:100%; 
+  /*text-align:center;*/
+  padding-bottom:5%;
+  padding-left: 0%;
+  margin:auto;
+}
+
+.subtitle {
+  background: palegoldenrod;
+}
+ul.languages {
+  list-style-type: disc;
+}
+ul.genre {
+  list-style-type: disc;
+}
