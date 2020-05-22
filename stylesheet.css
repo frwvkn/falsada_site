@@ -2,33 +2,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
-  margin: 0;
+  margin-left: 10px;
+  margin-top: 0px;
 }
 .index {
-  background-image: url("image/background-image.png");
+  background-image: url("image/itajiki.jpg");
+  background-attachment: fixed;
 }
-/*.programming {
-  background-image: url("./images/wallpaper.jpg");
-  color: aliceblue;
+a.one{
+  text-decoration: underline;
+  color: #FFA500;
 }
-.music {
-  background-image: url("./images/DSC_000008.JPG");
-  color: aliceblue;
+a.SNS{
+  list-style-type: none;
 }
-.hangglider {
-  background-image: url("./images/hangglider-min.jpg");
-}
-.eeic {
-  background-image: url("./images/wallpaper.jpg");
-  color: aliceblue;
-}*/
-a {
-  text-decoration: none;
-  color: white;
-}
-a:hover {
-  color: blue;
-}
+/* about top */
 .top {
   overflow: hidden;
 	padding:0px;
@@ -37,14 +25,14 @@ a:hover {
 }
 .top li {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
 }
 ul.top li a{
   display: block;
-	padding: 14px 16px;
+	padding: 16px 18px;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color:white;
 }
 ul.top li a:hover {
   background-color: gray;
@@ -57,22 +45,53 @@ ul.top li a.active {
 		float: none;
 	}
 }
-h1{
-	font-family:"MV Boli","Segoe Script","Segoe Print",cursive;
-	font-size:45px;
-	margin-top:10%;	
-}
-h3{
-  font-size:20px;
-}
-#menu {
-  width:100%; 
-  /*text-align:center;*/
-  padding-bottom:5%;
-  padding-left: 0%;
-  margin:auto;
+#menu{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  margin-bottom: 10px;
+  background-color:rgb(50,50,50,0.8);
 }
 
+/* about header */
+#header{
+  margin-top: 100px;
+  margin-bottom: 400px;
+}
+.name{
+	font-family:"Big Caslon","Segoe Script","Segoe Print",cursive;
+	font-size:70px;
+  margin-top:100px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  width:100%; 
+  text-align:center;
+  padding-left: 0%;
+}
+
+/* about main */
+#main{
+  background-color: rgb(250, 250, 250,0.7);
+  padding: 10px;
+}
+.youtube{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.twitter{
+  text-align: center;
+}
+.first{
+  margin-bottom: 50px;
+}
+p.introduction{
+  font-size: 22px;
+}
+h2{
+  text-align: center;
+  
+}
 .subtitle {
   background: palegoldenrod;
 }
@@ -81,4 +100,18 @@ ul.languages {
 }
 ul.genre {
   list-style-type: disc;
+}
+#footer{
+  background-color: rgb(50,50,50,0.8);
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.SNS_index{
+  font-size: 25px;
+  text-align: center;
+}
+
+#footer img{
+  margin: 10px;
 }
