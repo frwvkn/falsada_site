@@ -4,6 +4,13 @@ body {
   color: black;
   margin-left: 10px;
   margin-top: 0px;
+  margin-right: 10px;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
 }
 @media screen and (max-width:980px) {
   .index{
@@ -16,6 +23,10 @@ body {
     padding-bottom: 18%;
     color: white;
   }
+  .name{
+    margin-top: 0;
+    color: black;
+  }
 }
 @media screen and (min-width:981px){
   .index {
@@ -24,25 +35,11 @@ body {
     background-position: center;
     background-size: cover;
   }
-}
-/*@media screen and (max-width:480px){
-  .index {
-    background-image: url("image/itajiki.jpg");
-    background-attachment: fixed;
-  }
   #header{
-    margin-top: 100px;
-  margin-bottom: 200px;
+    margin-top: 5%;
+    margin-bottom: 20%;
   }
-}*/
-
-/*@media screen and (min-width:781px){
-  .index {
-    background-image: url("image/itajiki.jpg");
-    background-attachment: fixed;
-    width: 100%;
-  }
-}*/
+}
 a.one{
   text-decoration: underline;
   color: #FFA500;
@@ -81,16 +78,26 @@ ul.top li a.active {
   margin-bottom: 10px;
   background-color:rgb(50,50,50,0.8);
 }
-
-/* about header */
-/*#header{
-  margin-top: 100px;
-  margin-bottom: 400px;
-}*/
+#hanghead{
+  text-align: center;
+  background-image: url("./image/nasas3.JPG");
+  background-size: cover;
+  padding-bottom: 35%;
+}
+#hanghead h2{
+  font-size: 50px;
+  margin-top: 3%;
+  padding-top: 3%;
+}
+#header_aboutus{
+  background-image: url("./image/takaoka3.jpg");
+  background-size: cover;
+  padding-bottom: 35%;
+  margin-top: 3%;
+}
 .name{
-	font-family:"Big Caslon","Segoe Script","Segoe Print",cursive;
+	font-family:"Big Caslon","Segoe Script","Segoe Print";
 	font-size:70px;
-  margin-top:100px;
   margin-left: 10px;
   margin-bottom: 50px;
   width:100%; 
@@ -134,6 +141,23 @@ ul.languages {
 ul.genre {
   list-style-type: disc;
 }
+.event{
+	text-align:center;
+	padding:5px;
+}
+.event caption{
+  font-size: 1.5rem;
+}
+.event td{
+	background-color:rgba(0,0,0,0.8);
+	padding:5px;
+  padding-right:15px;
+  color: white;
+}
+.event tr{
+	background-color:rgba(0,128,128,0.3);
+	padding:5px;
+}
 #footer{
   background-color: rgb(50,50,50,0.8);
   margin-bottom: 10px;
@@ -148,11 +172,3 @@ ul.genre {
 #footer img{
   margin: 10px;
 }
-/*@media screen and (max-width:639px){
-
-}
-@media screen and (min-width:604px) and (max-width:1023px){
-  
-}
-@media screen and (min-width:1024px){
-}*/
