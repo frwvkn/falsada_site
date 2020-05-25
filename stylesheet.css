@@ -49,18 +49,21 @@ a.SNS{
 }
 /* about top */
 .top {
-  overflow: hidden;
-	padding:0px;
+  /*overflow: hidden;*/
+	/*padding:0px;*/
 	list-style-type: none;
-	margin:auto;
+  /*margin:0px;*/
+  text-align: center;
+  font-size: 0px;
 }
 .top li {
-  float: left;
-  font-size: 20px;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0px;
 }
 ul.top li a{
   display: block;
-	padding: 16px 18px;
+	padding: 20px 25px;
 	text-align: center;
 	text-decoration: none;
 	color:white;
@@ -70,6 +73,7 @@ ul.top li a:hover {
 }
 ul.top li a.active {
   background-color: red;
+  margin:0px;
 }
 #menu{
   position: -webkit-sticky;
