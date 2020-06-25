@@ -18,26 +18,25 @@ body {
     background-attachment:fixed;
   }
   #header{
-    background-image: url("./image/itajiki.jpg");
+    background-image: url("./image/nasas31.JPG");
     background-size: cover;
-    padding-bottom: 18%;
-    color: white;
   }
   .name{
     margin-top: 0;
-    color: black;
+    font-size:300%;
   }
 }
 @media screen and (min-width:981px){
-  .index {
-    background-image: url("image/itajiki.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+  .index{
+    background-image:url("./image/back.jpg");
+    background-attachment:fixed;
   }
   #header{
-    margin-top: 5%;
-    margin-bottom: 20%;
+    background-image: url("./image/nasas31.JPG");
+    background-size: cover;
+  }
+  .name{
+    font-size:75px;
   }
 }
 a.one{
@@ -84,7 +83,7 @@ ul.top li a.active {
 }
 #hanghead{
   text-align: center;
-  background-image: url("./image/nasas3.JPG");
+  background-image: url("./image/itajiki.jpg");
   background-size: cover;
   padding-bottom: 35%;
 }
@@ -94,18 +93,20 @@ ul.top li a.active {
   padding-top: 3%;
 }
 #header_aboutus{
-  background-image: url("./image/takaoka2.jpg");
+  background-image: url("./image/takaoka21.jpg");
   background-size: cover;
   padding-bottom: 35%;
   margin-top: 3%;
 }
 .name{
-	font-family:"Big Caslon","Segoe Script","Segoe Print";
-	font-size:70px;
-  margin-left: 10px;
-  margin-bottom: 50px;
   width:100%; 
   text-align:center;
+  font-family:"Big Caslon","Segoe Script","Segoe Print";
+  color:white;
+  margin-top:5px;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+  padding-top:35%;
   padding-left: 0%;
 }
 #space{
