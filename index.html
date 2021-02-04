@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>東京大学ハンググライダーサークル falsada</title>
     <meta charset = "UTF-8">
     <meta name = "description" content = "東京大学ハンググライダーサークルfalsadaです。
     週末にハンググライダーで空を飛んでいるインカレサークルです！他大生・2年生以上大歓迎！
     少しでも興味を持ったら連絡してください！">
-    <meta name=”viewport” content=”width=device-width initial-scale=1”>
-    <title>東京大学ハンググライダーサークル falsada</title>
-    <link rel = "stylesheet" href ="stylesheet.css">
-    <link rel = "stylesheetforsmartphone" href ="./stylesheetforsm.css">
+    <meta property="og:title" content="東大ハンググライダーサークルfalsada" /> 
+    <meta property="og:description" content="東京大学ハンググライダーサークルfalsadaです。
+    週末にハンググライダーで空を飛んでいるインカレサークルです！他大生・2年生以上大歓迎！" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://utokyo-hangglider.netlify.app/" />
+    <!--<meta property="og:image" content="siteImage.png" />-->
+    <meta property="og:site_name" content="東京大学ハンググライダーサークルfalsada" />
 
+    <meta name="twitter:card" content="summary_card_image" />
+    <meta name="twitter:site" content="@FalsadaSky" />
+    <meta name="twitter:description" content="東大ハンググライダーサークルfalsadaの公式HPです。" />
+    <meta name="twitter:title" content="東大ハンググライダーサークルfalsada" />
+    <!--<meta name="twitter:image" content="画像URL" />-->
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name=”viewport” content=”width=device-width initial-scale=1”>
+
+    <link rel = "stylesheet" href ="./resource/css/stylesheet.css">
+    <!--<link rel="icon" href="/path/favicon.ico"> 
+    <link rel="apple-touch-icon" href="">-->
   </head>
   <body class="index">
-    <div id = "menu">
-      <ul class = "top">
-        <li><a class="active">home</a></li>
-        <li><a class = "nonactive" href = "about_us/aboutus.html">about us</a></li>
-        <li><a class = "nonactive" href = "hangglider/hangglider.html">hang glider</a></li>
-        <li><a href = "album/album.html">album</a></li>
-        <li><a href="FAQ/faq.html">FAQ</a></li>
-        <li><a href = "link/link.html">link</a></li>
+    <nav class="menu">
+      <ul class="menuGroup">
+        <li class="menuItem current">
+          <a class="menuLink">home</a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href = "about_us/aboutus.html">about us</a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href = "hangglider/hangglider.html">hang glider</a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href = "album/album.html">album</a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href="FAQ/faq.html">FAQ</a>
+        </li>
+        <li class="menuItem">
+          <a class="menuLink" href = "link/link.html">link</a>
+        </li>
       </ul>
-    </div>
-    <div id = "header">
+    </nav>
+    <div class = "main_title">
       <h1 class = "name">Tokyo University Hang Gliding Club Falsada</h1>
       <!--<h2 class = "describe" align = "center">
         ハンググライダー、はじめてみませんか？
         </h2>-->
     </div>
     <div id = "main">
+      <div class="first_introduction">
+        <h2>鳥のように大空を自由に飛びたい。</h2>
+        <p class="introduction">
+          誰でも一度はそんなことを思ったことがあるのではないでしょうか？<br>
+          自分の翼をもち、走り出す。地から足が浮けば、そこからはもうあなたの自由。
+          一回飛んだら、一生の趣味になります。<br>
+          そんな体験を、新たな大学生活のスタートと共に、一緒に始めませんか？
+          ハンググライダーとは、パラグライダーやセールプレーンと同じスカイスポーツの一つで、
+          その名の通り「ぶら下がる（hang）」ことで体重移動し、空を滑空していきます。
+          そのため、より自分と翼が一体になって飛ぶこと出来ます。<br>
+          運動が得意じゃない、という方も大丈夫です！私達やインストラクターが全力でサポートします！
+        </p>
+      </div>
       <div class = "youtube">
         <iframe  width="560" height="315" src="https://www.youtube.com/embed/Q83KSIjGGmI" 
           frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -36,9 +77,9 @@
         </iframe>
     </div>
       <div class="introduction">
-        <div class="first">
-          <h2>鳥のように大空を自由に飛びたい。</h2>
-          <img src="image/run.jpg" align = "right" width="450px">
+        <!--<div class="first">
+          
+          <img src="./resource/image/run.jpg" align = "right" width="450px">
           <p class="introduction">
           <br>
           誰でも一度はそんなことを思ったことがあるのではないでしょうか？<br>
@@ -50,11 +91,11 @@
           そのため、より自分と翼が一体になって飛ぶこと出来ます。<br>
           運動が得意じゃない、という方も大丈夫です！私達やインストラクターが全力でサポートします！
           </p>
-        </div>
+        </div>-->
         <br clear="right">
         <div class="second"> 
           <h2>活動形態</h2>
-          <img src="image/jubuichi.jpg" align = "left" width="400px">
+          <img src="./resource/image/jubuichi.jpg" align = "left" width="400px">
           <p class="introduction">
             私達は、主に土日、茨城県の板敷というところで、ハンググライダーで空を飛んでいます！<br>
             長期休暇には、東北、九州、四国などに飛びにいったりもします。
@@ -68,7 +109,7 @@
         <br clear="left">
         <div class="third">
           <h2>見学会</h2>
-          <img src="image/member.jpg" align = "right" width="450px">
+          <img src="./resource/image/member.jpg" align = "right" width="450px">
           <p class="introduction">
             実際に私達が飛んでいる所に行って、その目で確かめてみてください。毎週末見学会※も行っています。<br>
             公式LINE、Twitter、facebook、instagram、メールなどお好きな方法で連絡してくだい！
@@ -80,7 +121,7 @@
           <h2>安全対策</h2>
           <p class="introduction">
             安全にサークル活動するために
-            <a href = "./manual_falsada_flyingchicken.pdf" target = "_blank">安全対策マニュアル</a>
+            <a href = "./resource/manual_falsada_flyingchicken.pdf" target = "_blank">安全対策マニュアル</a>
             を作成し、定期的に更新しています。<br>
           </p>
         </div>
@@ -97,13 +138,13 @@
         <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0">
       </a>
         <a class = "SNS" href="https://twitter.com/FalsadaSky" target="_blank">
-          <img src="./image/sns/twitterimg.jpg" alt="Twitterリンク" height="60px" width="60px">
+          <img src="./resource/image/sns/twitterimg.jpg" alt="Twitterリンク" height="60px" width="60px">
         </a>
         <a class = "SNS" href="https://ja-jp.facebook.com/falsada.sky/" target="_blank">
-          <img src="./image/sns/facebook.png" alt="facebookリンク" height="60px" width="60px">
+          <img src="./resource/image/sns/facebook.png" alt="facebookリンク" height="60px" width="60px">
         </a>  
         <a class = "SNS" href="https://www.instagram.com/falsadasky/" target="_blank">
-          <img src="./image/sns/instagram.jpeg" alt="instagramリンク" height="60px" width="60px">
+          <img src="./resource/image/sns/instagram.jpeg" alt="instagramリンク" height="60px" width="60px">
         </a>
       <p>東京大学ハンググライダーサークルfalsada メールアドレス</p>
       <p><a class = "one" href = "mailto:falsada.sky@gmail.com">falsada.sky@gmail.com</a></p>
